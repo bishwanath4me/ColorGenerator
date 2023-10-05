@@ -1,0 +1,42 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&family=Shadows+Into+Light&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Sedgwick Ave Display', cursive;
+
+}
+body{
+    /* background-color: burlywood; */
+    transition: 0.5s;
+}
+.main{
+    width:100%;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+.container{
+    width:30rem;
+    height:10rem;
+    background-color: gray;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 40px;
+    text-align: center;
+}
+button{
+    margin:2px;
+    padding: 10px;
+    font-size: 26px;
+    border-radius: 7px;
+    /* since button is inline so wehave to make it block  */
+    display:block;
+    width: 100%;
+    background-color: rgb(95, 23, 23);
+    color: white;
+    border: none;
+}
